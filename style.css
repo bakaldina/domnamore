@@ -20,7 +20,8 @@ body {
     background-size: cover;
     text-align: center;
 }
-.header_title {
+.header_title a {
+    text-decoration: none;
     font-family: "Roboto", Helvetica, sans-serif;
     display: inline-block;
     font-size: 32px;
@@ -118,12 +119,16 @@ body {
     color:  #033876;
     cursor: pointer;
 }
-.offers_block_button:focus {
+.offers_block_button a:focus {
     outline: none;
     color: #e04541;
 }
-.offers_block_button:hover {
+.offers_block_button a:hover {
     color: #e04541;
+}
+.offers_block_button a {
+    text-decoration: none;
+    color:  #033876;
 }
 .data {
     width: 100%;
